@@ -21,5 +21,4 @@ jobs:
             README.md
             docs/**/*.md
             examples/**/*.md
-          config: |
-            { "config": { "MD013": false, "MD033": false, "MD041": false } }
+          config: .markdownlint-cli2.jsonc
