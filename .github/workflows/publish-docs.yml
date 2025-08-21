@@ -21,3 +21,4 @@ jobs:
             README.md
             docs/**/*.md
             examples/**/*.md
+          config: .markdownlint.json
