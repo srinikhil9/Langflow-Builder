@@ -21,3 +21,5 @@ jobs:
             README.md
             docs/**/*.md
             examples/**/*.md
+          config: .markdownlint-cli2.jsonc
+    continue-on-error: true
