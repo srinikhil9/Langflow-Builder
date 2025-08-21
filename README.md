@@ -38,7 +38,8 @@ Repository: [srinikhil9/Langflow-Builder](https://github.com/srinikhil9/Langflow
 
 ### Quick start
 
-1) Clone and prepare environment
+1. Clone and prepare environment
+
 ```bash
 git clone https://github.com/srinikhil9/Langflow-Builder.git
 cd "Langflow-Builder"
@@ -51,19 +52,22 @@ pip install -r requirements.txt
 cp .env.example .env
 ```
 
-2) Configure environment
+2. Configure environment
+
 ```bash
 # Edit .env and set your keys
 OPENAI_API_KEY=sk-your-openai-api-key
 ```
 
-3) Install Langflow and run
+3. Install Langflow and run
+
 ```bash
 pip install "langflow>=1.4.2"
 langflow run
 ```
 
-4) Import the flow in the UI
+4. Import the flow in the UI
+
 - Open `http://localhost:7860`
 - Import → Upload File → select `Langflow Builder.json`
 
@@ -72,10 +76,11 @@ langflow run
 Start a conversation with any project request. The system automatically decides whether to generate a new architecture, continue the conversation contextually, or produce a custom component.
 
 Examples:
+
 ```text
-"Build an agentic framework for SQL database queries with natural language"  → Architecture plan
-"What if I want to add Redis caching to that system?"                         → Contextual follow‑up
-"Create a custom component that validates email addresses"                    → Component code
+Build an agentic framework for SQL database queries with natural language → Architecture plan
+What if I want to add Redis caching to that system? → Contextual follow‑up
+Create a custom component that validates email addresses → Component code
 ```
 
 ### Configuration
@@ -86,7 +91,7 @@ Examples:
 
 ### Project layout
 
-```
+```text
 Langflow-Builder/
 ├── Langflow Builder.json            # Main Langflow flow export
 ├── README.md                        # You are here

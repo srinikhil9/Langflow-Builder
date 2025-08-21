@@ -4,8 +4,8 @@ An intelligent multi-agent Langflow solution for architectural planning, convers
 
 ## Quick links
 
-- Repository: https://github.com/srinikhil9/Langflow-Builder
-- Flow JSON (raw): https://raw.githubusercontent.com/srinikhil9/Langflow-Builder/main/Langflow%20Builder.json
+- Repository: <https://github.com/srinikhil9/Langflow-Builder>
+- Flow JSON (raw): <https://raw.githubusercontent.com/srinikhil9/Langflow-Builder/main/Langflow%20Builder.json>
 - Setup Guide: setup_guide.md
 - Architecture: architecture.md
 - Customization: customization.md
