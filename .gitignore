@@ -1,0 +1,288 @@
+# Langflow Builder - Enhanced .gitignore
+
+# ===== ENVIRONMENT & SECRETS =====
+.env
+.env.local
+.env.production
+.env.staging
+.env.development
+
+# API Keys and secrets
+*api_key*
+*secret*
+*.pem
+*.key
+config/secrets.json
+secrets/
+
+# ===== LANGFLOW SPECIFIC =====
+.langflow/
+langflow.db
+langflow.db-journal
+langflow.log
+logs/
+flow_data/
+uploads/
+temp/
+
+# Langflow cache and temporary files
+.cache/
+.tmp/
+cache/
+
+# Component outputs and artifacts
+outputs/
+artifacts/
+generated_components/
+
+# ===== PYTHON =====
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.env/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# ===== DATABASES =====
+*.db
+*.sqlite
+*.sqlite3
+database.db
+conversations.db
+memory.db
+
+# Database migrations (keep structure, ignore data)
+migrations/versions/*.py
+!migrations/versions/__init__.py
+
+# ===== NODE.JS (if using any JS tools) =====
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# ===== IDE & EDITORS =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Vim
+*.swp
+*.swo
+Session.vim
+.netrwhist
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+
+# Sublime Text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+
+# ===== OPERATING SYSTEMS =====
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+
+# ===== LOGS & MONITORING =====
+logs/
+*.log
+log/
+*.out
+
+# Application logs
+app.log
+error.log
+access.log
+debug.log
+
+# ===== BACKUPS & TEMPORARY FILES =====
+backups/
+*.backup
+*.bak
+*.tmp
+*.temp
+temp/
+tmp/
+
+# ===== DOCUMENTATION BUILD =====
+docs/_build/
+docs/build/
+_build/
+site/
+
+# ===== CLOUD & DEPLOYMENT =====
+# Docker
+Dockerfile.local
+docker-compose.override.yml
+.dockerignore.local
+
+# Kubernetes
+*.kubeconfig
+k8s-secrets/
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# AWS
+.aws/
+aws-exports.js
+
+# ===== LANGFLOW BUILDER SPECIFIC =====
+# Generated flow exports
+exported_flows/
+flow_backups/
+
+# Component testing artifacts
+test_components/
+test_outputs/
+
+# User uploaded files
+user_uploads/
+conversation_exports/
+
+# Performance monitoring
+performance_logs/
+metrics/
+
+# ===== SECURITY SCANS =====
+.bandit
+.safety
+security_reports/
+
+# ===== PROFILING =====
+*.prof
+profile_results/
+
+# ===== MISC =====
+.env.backup
+TODO.md
+NOTES.md
+SCRATCH.md
+*.orig
+
+

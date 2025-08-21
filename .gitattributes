@@ -1,0 +1,16 @@
+# Normalize end-of-line handling
+* text=auto eol=lf
+
+# Treat common data files as binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.docx binary
+*.pptx binary
+
+# Keep JSON flow export with LF
+*.json text eol=lf
+
