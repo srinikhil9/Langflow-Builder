@@ -1,8 +1,27 @@
 ## Langflow Builder — Conversation Catalyst Engine
 
+[![Stars](https://img.shields.io/github/stars/srinikhil9/Langflow-Builder?style=social)](https://github.com/srinikhil9/Langflow-Builder)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](requirements.txt)
+[![Langflow](https://img.shields.io/badge/Langflow-%E2%89%A51.4.2-5C2D91)](https://github.com/langflow-ai/langflow)
+[![Docs CI](https://github.com/srinikhil9/Langflow-Builder/actions/workflows/publish-docs.yml/badge.svg)](https://github.com/srinikhil9/Langflow-Builder/actions/workflows/publish-docs.yml)
+[![CodeQL](https://github.com/srinikhil9/Langflow-Builder/actions/workflows/codeql.yml/badge.svg)](https://github.com/srinikhil9/Langflow-Builder/actions/workflows/codeql.yml)
+
 An intelligent multi-agent Langflow solution that automatically routes user requests to the appropriate response type: architectural planning, conversational follow‑ups, or custom component generation.
 
 Repository: [srinikhil9/Langflow-Builder](https://github.com/srinikhil9/Langflow-Builder)
+
+### Table of Contents
+
+- [Features](#features)
+- [Quick start](#quick-start)
+- [Usage](#usage)
+- [Configuration](#configuration)
+- [Project layout](#project-layout)
+- [Quick links](#quick-links)
+- [Keywords](#keywords)
+- [Contributing](#contributing)
+- [License](#license)
 
 ### Features
 
@@ -89,6 +108,16 @@ Langflow-Builder/
 └── assets/
     └── screenshots/ (optional)
 ```
+
+### Quick links
+
+- Import this flow directly into Langflow: download the JSON and import via UI
+  - Raw flow JSON: `https://raw.githubusercontent.com/srinikhil9/Langflow-Builder/main/Langflow%20Builder.json`
+  - Import path in UI: Import → Upload File → select `Langflow Builder.json`
+
+### Keywords
+
+Langflow, multi‑agent, LLM, OpenAI, GPT‑4o, AI workflows, intent classification, response router, conversation memory, component generation, prompt engineering, agentic design, AI planning, conversational AI
 
 ### Contributing
 

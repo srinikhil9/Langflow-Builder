@@ -1,0 +1,23 @@
+name: Docs CI
+
+on:
+  push:
+    branches: [ "main" ]
+    paths:
+      - 'README.md'
+      - 'docs/**'
+      - 'examples/**'
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  markdownlint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: DavidAnson/markdownlint-cli2-action@v16
+        with:
+          globs: |
+            README.md
+            docs/**/*.md
+            examples/**/*.md

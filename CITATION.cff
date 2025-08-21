@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: Langflow Builder — Conversation Catalyst Engine
+authors:
+  - name: Srinikhil
+    affiliation: GitHub user @srinikhil9
+year: 2025
+version: 1.0.0
+doi: null
+url: https://github.com/srinikhil9/Langflow-Builder
+keywords:
+  - langflow
+  - multi-agent
+  - openai
+  - gpt-4o
+  - llm
+  - conversation-memory
+  - response-router
